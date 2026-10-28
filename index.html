@@ -206,7 +206,9 @@
     font-size: 24px; line-height: 1; display: grid; place-items: center;
     backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);
   }
-  .sheet-bild { aspect-ratio: 4 / 3; max-height: 46vh; width: 100%; }
+  /* Bilder sind quadratisch – so sind sie im Detail vollständig zu sehen */
+  .sheet-bild { aspect-ratio: 1; max-height: 62vh; width: 100%; }
+  .sheet-bild .bild { height: 100%; }
   .sheet-bild .bild-emoji { font-size: 110px; }
   .sheet-text { padding: 18px calc(20px + var(--rechts)) 4px calc(20px + var(--links)); }
   .sheet-text.ohne-bild { padding-top: 56px; }
@@ -381,11 +383,12 @@ const TAGS = [
   { id: 'fleisch',     label: 'Fleisch',         emoji: '🥩' },
   { id: 'fisch',       label: 'Fisch',           emoji: '🐟' },
   { id: 'vegetarisch', label: 'Vegetarisch',     emoji: '🥦' },
-  { id: 'schnell',     label: 'Schnell gemacht', emoji: '⚡' },
-  { id: 'kids',        label: 'Kids mögen’s', emoji: '🧒' },
+  { id: 'auflauf',     label: 'Aufläufe',        emoji: '🥘' },
+  { id: 'protein',     label: 'High Protein / Low Cal', emoji: '💪' },
 ];
 const ERNAEHRUNG = ['fleisch', 'fisch', 'vegetarisch'];
-const TAG_SUCHWORTE = { vegetarisch: 'veggie', kids: 'kinder' };
+const ALTE_TAGS = ['schnell', 'kids']; // abgeschafft, werden beim Speichern entfernt
+const TAG_SUCHWORTE = { vegetarisch: 'veggie', auflauf: 'auflauf gratin überbacken', protein: 'eiweiss kalorienarm fitness' };
 
 const HERZ = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 20.7l-1.4-1.3C5.4 14.7 2 11.6 2 7.8 2 4.7 4.4 2.3 7.5 2.3c1.7 0 3.4.8 4.5 2.1 1.1-1.3 2.8-2.1 4.5-2.1 3.1 0 5.5 2.4 5.5 5.5 0 3.8-3.4 6.9-8.6 11.6L12 20.7z"/></svg>';
 const HERZ_LEER = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20.7l-1.4-1.3C5.4 14.7 2 11.6 2 7.8 2 4.7 4.4 2.3 7.5 2.3c1.7 0 3.4.8 4.5 2.1 1.1-1.3 2.8-2.1 4.5-2.1 3.1 0 5.5 2.4 5.5 5.5 0 3.8-3.4 6.9-8.6 11.6L12 20.7z"/></svg>';
@@ -428,7 +431,7 @@ function sauber(g) {
     title: String(g.title ?? '').trim(),
     category: String(g.category ?? ''),
     subcategory: String(g.subcategory ?? ''),
-    tags: Array.isArray(g.tags) ? g.tags.map(String) : [],
+    tags: Array.isArray(g.tags) ? g.tags.map(String).filter(t => !ALTE_TAGS.includes(t)) : [],
     image: String(g.image ?? ''),
   };
 }
@@ -523,8 +526,7 @@ function gefiltert() {
     if (zustand.kategorie && g.category !== zustand.kategorie) continue;
     if (zustand.unterkategorie && g.subcategory !== zustand.unterkategorie) continue;
     if (ernaehrung.length && !ernaehrung.some(t => g.tags.includes(t))) continue;
-    if (zustand.filter.has('schnell') && !g.tags.includes('schnell')) continue;
-    if (zustand.filter.has('kids') && !g.tags.includes('kids')) continue;
+    if ([...zustand.filter].some(t => !ERNAEHRUNG.includes(t) && !g.tags.includes(t))) continue;
     if (zustand.nurFavoriten && !istFavorit(g.id)) continue;
     let rang = 0;
     if (woerter.length) {

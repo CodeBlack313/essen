@@ -2,9 +2,10 @@
 
 Aufruf:  python tools/erzeuge_gerichte.py
 
-Bereits vorhandene Felder `image` sowie die Tags `schnell` und `kids` aus einer
+Bereits vorhandene Felder `image` sowie die Tags `auflauf` und `protein` aus einer
 bestehenden gerichte.json bleiben erhalten, damit ein erneuter Lauf nichts
-kaputt macht.
+kaputt macht. Achtung: Titel, die in der App geändert wurden, setzt das Script
+auf die Liste zurück – im Zweifel nicht mehr verwenden.
 """
 import json
 import re
@@ -46,6 +47,10 @@ VEGETARISCH = """
 B4 B5 B6 B7 B8 B13 B16 B17 B18 B19 B20 B21 B23 B24 B25 B26 B27
 B1 B2 B3
 """.split()
+# Weitere Tags, ebenfalls nur wenn der Titel eindeutig ist.
+AUFLAUF = "36 37 73 74 100 B14".split()
+PROTEIN = "2 6 8 24 26 18 19".split()  # „Protein“ steht im Titel
+
 # Bewusst ohne Tag (unklar): 16 Dumplings, 93 Massaman-Curry, 9 Pide,
 # 10 Tschebureki, 27 Burritos, 102 Sarma, B11/B12 Kartoffelsalate,
 # 40/41/83/85/88/105 Suppen (Brühe/Wurst unklar), B22 Caesar-Dressing (Sardellen).
@@ -79,7 +84,9 @@ def main():
         for unterkategorie, eintraege in gruppen:
             for gid, titel in eintraege:
                 vorher = alt.get(gid, {})
-                tags = ernaehrung(gid) + [t for t in vorher.get("tags", []) if t in ("schnell", "kids")]
+                extra = [t for t, ids in (("auflauf", AUFLAUF), ("protein", PROTEIN))
+                         if gid in ids or t in vorher.get("tags", [])]
+                tags = ernaehrung(gid) + extra
                 gerichte.append({
                     "id": gid,
                     "title": titel,
@@ -92,7 +99,7 @@ def main():
     ids = [g["id"] for g in gerichte]
     assert len(ids) == len(set(ids)), "doppelte IDs"
     assert "31" not in ids and "B9" not in ids
-    unbekannt = set(FLEISCH + FISCH + VEGETARISCH) - set(ids)
+    unbekannt = set(FLEISCH + FISCH + VEGETARISCH + AUFLAUF + PROTEIN) - set(ids)
     assert not unbekannt, f"Tags für unbekannte IDs: {unbekannt}"
 
     schreibe_gerichte(gerichte, ZIEL)

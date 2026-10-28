@@ -20,7 +20,8 @@ def lade_gerichte(pfad=GERICHTE):
 def schreibe_gerichte(gerichte, pfad=GERICHTE):
     """Eine Zeile pro Gericht, damit Änderungen im Git-Diff gut lesbar sind."""
     zeilen = ",\n".join("  " + json.dumps(g, ensure_ascii=False) for g in gerichte)
-    Path(pfad).write_text("[\n" + zeilen + "\n]\n", encoding="utf-8")
+    # newline="\n": auch unter Windows LF schreiben, so wie die App es per GitHub-API tut
+    Path(pfad).write_text("[\n" + zeilen + "\n]\n", encoding="utf-8", newline="\n")
 
 
 def norm(text):
@@ -55,5 +56,5 @@ def cache_version_hochzaehlen():
     if not m:
         return None
     neu = int(m.group(1)) + 1
-    SW.write_text(text.replace(m.group(0), f"const VERSION = 'essen-v{neu}';"), encoding="utf-8")
+    SW.write_text(text.replace(m.group(0), f"const VERSION = 'essen-v{neu}';"), encoding="utf-8", newline="\n")
     return neu
