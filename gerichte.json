@@ -138,6 +138,5 @@
   {"id": "B27", "title": "Französische Schalotten-Senf-Vinaigrette", "category": "Dips, Soßen & Dressings", "subcategory": "", "tags": ["vegetarisch"], "image": ""},
   {"id": "B1", "title": "Türkische Sumach-Zwiebeln", "category": "Extras", "subcategory": "", "tags": ["vegetarisch"], "image": "bilder/B1.jpg"},
   {"id": "B2", "title": "Pink Pickled Onions (eingelegte rote Zwiebeln)", "category": "Extras", "subcategory": "", "tags": ["vegetarisch"], "image": "bilder/B2.jpg"},
-  {"id": "B3", "title": "Zwiebel-Honig-Sirup", "category": "Hausmittel", "subcategory": "", "tags": ["vegetarisch"], "image": ""},
-  {"id": "116", "title": "Test Gericht", "category": "Hauptgerichte", "subcategory": "Herzhafte Eierspeisen", "tags": ["schnell"], "image": ""}
+  {"id": "B3", "title": "Zwiebel-Honig-Sirup", "category": "Hausmittel", "subcategory": "", "tags": ["vegetarisch"], "image": ""}
 ]
