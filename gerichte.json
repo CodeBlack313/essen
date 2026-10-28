@@ -1,5 +1,5 @@
 [
-  {"id": "11", "title": "Türkische Pasta mit Hackfleisch und Knoblauchjoghurt", "category": "Hauptgerichte", "subcategory": "Pasta & Nudelgerichte", "tags": ["fleisch"], "image": "bilder/11.jpg?v=mvskaode"},
+  {"id": "11", "title": "Türkische Pasta mit Hackfleisch und Knoblauchjoghurt", "category": "Hauptgerichte", "subcategory": "Pasta & Nudelgerichte", "tags": ["fleisch", "schnell"], "image": "bilder/11.jpg?v=mvskaode"},
   {"id": "32", "title": "Chicken Alfredo mit Fettuccine", "category": "Hauptgerichte", "subcategory": "Pasta & Nudelgerichte", "tags": ["fleisch"], "image": ""},
   {"id": "33", "title": "Spaghetti Bolognese", "category": "Hauptgerichte", "subcategory": "Pasta & Nudelgerichte", "tags": ["fleisch"], "image": ""},
   {"id": "34", "title": "Spaghetti mit Garnelen in Knoblauchöl", "category": "Hauptgerichte", "subcategory": "Pasta & Nudelgerichte", "tags": ["fisch"], "image": ""},
