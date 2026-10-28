@@ -1,0 +1,14 @@
+{
+  "name": "Was essen wir?",
+  "short_name": "Essen",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#FBF6EF",
+  "theme_color": "#E0522B",
+  "lang": "de",
+  "icons": [
+    { "src": "icons/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}
