@@ -1,4 +1,4 @@
-# Was essen wir? – Familien-Essensapp
+# Hangrys – Familien-Essensapp
 
 Statische iPhone-Web-App: `index.html`, `gerichte.json`, `bilder/`, `sw.js`. Kein Build.
 

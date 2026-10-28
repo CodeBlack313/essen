@@ -1,6 +1,6 @@
 {
-  "name": "Was essen wir?",
-  "short_name": "Essen",
+  "name": "Hangrys",
+  "short_name": "Hangrys",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
