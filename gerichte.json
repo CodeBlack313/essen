@@ -67,7 +67,7 @@
   {"id": "98", "title": "Tomaten-Mozzarella-Risotto", "category": "Hauptgerichte", "subcategory": "Reisgerichte, Risotto & Currys", "tags": ["vegetarisch"], "image": ""},
   {"id": "99", "title": "Kürbisrisotto mit Parmesan und Salbei", "category": "Hauptgerichte", "subcategory": "Reisgerichte, Risotto & Currys", "tags": ["vegetarisch"], "image": ""},
   {"id": "1", "title": "Cheeseburger-Wrap", "category": "Hauptgerichte", "subcategory": "Burger, Wraps, Tacos & Streetfood", "tags": ["fleisch"], "image": ""},
-  {"id": "2", "title": "High-Protein Smash-Burger-Taco", "category": "Hauptgerichte", "subcategory": "Burger, Wraps, Tacos & Streetfood", "tags": ["fleisch", "protein"], "image": ""},
+  {"id": "2", "title": "High-Protein Smash-Burger-Taco", "category": "Hauptgerichte", "subcategory": "Burger, Wraps, Tacos & Streetfood", "tags": ["fleisch", "protein"], "image": "bilder/2.jpg?v=mvtln57s"},
   {"id": "3", "title": "Knusprige Chicken-Cheese-Tacos", "category": "Hauptgerichte", "subcategory": "Burger, Wraps, Tacos & Streetfood", "tags": ["fleisch"], "image": ""},
   {"id": "4", "title": "Cheeseburger im Reispapier", "category": "Hauptgerichte", "subcategory": "Burger, Wraps, Tacos & Streetfood", "tags": ["fleisch"], "image": ""},
   {"id": "5", "title": "Flying Dutchman Burger", "category": "Hauptgerichte", "subcategory": "Burger, Wraps, Tacos & Streetfood", "tags": ["fleisch"], "image": ""},
