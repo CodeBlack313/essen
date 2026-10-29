@@ -145,5 +145,6 @@
   {"id": "120", "title": "Schnitzel Bolo", "category": "Hauptgerichte", "subcategory": "Schnitzel & Cordon bleu", "tags": ["fleisch"], "image": "bilder/120.jpg?v=mvtr131b"},
   {"id": "121", "title": "Bockwurst mit Kartoffelsalat", "category": "Hauptgerichte", "subcategory": "Kartoffelgerichte, Gemüse & Pfannengerichte", "tags": ["fleisch"], "image": "bilder/121.jpg?v=mvtr2efq"},
   {"id": "122", "title": "Chicken Wings Barbecue", "category": "Hauptgerichte", "subcategory": "Fleischgerichte & Hausmannskost", "tags": ["fleisch"], "image": "bilder/122.jpg?v=mvtr5xhd"},
-  {"id": "123", "title": "Currywurst & Pommes", "category": "Hauptgerichte", "subcategory": "Fleischgerichte & Hausmannskost", "tags": ["fleisch"], "image": "bilder/123.jpg?v=mvtr5le8"}
+  {"id": "123", "title": "Currywurst & Pommes", "category": "Hauptgerichte", "subcategory": "Fleischgerichte & Hausmannskost", "tags": ["fleisch"], "image": "bilder/123.jpg?v=mvtr5le8"},
+  {"id": "124", "title": "Grillhähnchen mit Rotkohl, Kartoffeln alla Hähnchensoße alla Mama & Papa", "category": "Hauptgerichte", "subcategory": "Pasta & Nudelgerichte", "tags": [], "image": ""}
 ]
