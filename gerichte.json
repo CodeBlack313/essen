@@ -108,7 +108,7 @@
   {"id": "B12", "title": "Bayerischer Kartoffelsalat", "category": "Salate", "subcategory": "", "tags": [], "image": "bilder/B12.jpg?v=mvtp5zyv"},
   {"id": "B15", "title": "Bruschetta mit Tomaten und Knoblauch", "category": "Salate", "subcategory": "", "tags": ["vegetarisch"], "image": "bilder/B15.jpg?v=mvtp6x5h"},
   {"id": "39", "title": "Linsensuppe wahlweise mit Bockwurst", "category": "Suppen & Eintöpfe", "subcategory": "", "tags": ["fleisch", "vegetarisch"], "image": "bilder/39.jpg?v=mvtpstdp"},
-  {"id": "40", "title": "Weiße-Bohnen-Suppe", "category": "Suppen & Eintöpfe", "subcategory": "", "tags": [], "image": ""},
+  {"id": "40", "title": "Weiße-Bohnen-Suppe", "category": "Suppen & Eintöpfe", "subcategory": "", "tags": [], "image": "bilder/40.jpg?v=mvtpw0cg"},
   {"id": "41", "title": "Kartoffelsuppe wahlweise mit Würstchen", "category": "Suppen & Eintöpfe", "subcategory": "", "tags": ["fleisch", "vegetarisch"], "image": "bilder/41.jpg?v=mvtpqgcy"},
   {"id": "42", "title": "Hühnersuppe mit Nudeln", "category": "Suppen & Eintöpfe", "subcategory": "", "tags": ["fleisch"], "image": "bilder/42.jpg?v=mvtpp1bt"},
   {"id": "83", "title": "Spargelcremesuppe", "category": "Suppen & Eintöpfe", "subcategory": "", "tags": [], "image": "bilder/83.jpg?v=mvtpttvl"},
