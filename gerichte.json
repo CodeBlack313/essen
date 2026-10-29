@@ -152,7 +152,7 @@
   {"id": "127", "title": "Herrencreme", "category": "Nachspeisen & süßes Frühstück", "subcategory": "", "tags": [], "image": "bilder/127.jpg?v=mvtrgrmz"},
   {"id": "128", "title": "Kartoffelauflauf mit Pute Sauce Hollandaise und Käse überbacken alla Tanti", "category": "Hauptgerichte", "subcategory": "Aufläufe & Überbackenes", "tags": ["fleisch"], "image": "bilder/128.jpg?v=mvtrioxj"},
   {"id": "129", "title": "Hühnerragout alla Mama", "category": "Hauptgerichte", "subcategory": "Fleischgerichte & Hausmannskost", "tags": ["fleisch"], "image": "bilder/129.jpg?v=mvtrllxo"},
-  {"id": "130", "title": "Königsberger Klopse", "category": "Hauptgerichte", "subcategory": "Fleischgerichte & Hausmannskost", "tags": [], "image": "bilder/130.jpg?v=mvtrmxo4"},
+  {"id": "130", "title": "Königsberger Klopse", "category": "Hauptgerichte", "subcategory": "Fleischgerichte & Hausmannskost", "tags": ["fleisch"], "image": "bilder/130.jpg?v=mvtrmxo4"},
   {"id": "131", "title": "Barbecue Bacon Burger (BBB) alla Toby", "category": "Hauptgerichte", "subcategory": "Fleischgerichte & Hausmannskost", "tags": ["fleisch"], "image": "bilder/131.jpg?v=mvtrrmzu"},
   {"id": "132", "title": "Chilli Cheese Fries", "category": "Hauptgerichte", "subcategory": "Fleischgerichte & Hausmannskost", "tags": ["fleisch"], "image": "bilder/132.jpg?v=mvtrxj25"},
   {"id": "133", "title": "Schweineschnitzel „Großmutterschön“ alla Antonio", "category": "Hauptgerichte", "subcategory": "Fleischgerichte & Hausmannskost", "tags": ["fleisch"], "image": "bilder/133.jpg?v=mvtsn3k6"},
