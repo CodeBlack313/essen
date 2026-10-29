@@ -16,7 +16,7 @@
   {"id": "36", "title": "Bulgarische Moussaka mit Kartoffeln und Hackfleisch", "category": "Hauptgerichte", "subcategory": "Aufläufe & Überbackenes", "tags": ["fleisch", "auflauf"], "image": "bilder/36.jpg?v=mvtj7qes"},
   {"id": "37", "title": "Überbackene Hähnchenbrust mit Tomaten und Mozzarella", "category": "Hauptgerichte", "subcategory": "Aufläufe & Überbackenes", "tags": ["fleisch", "auflauf"], "image": ""},
   {"id": "67", "title": "Schnitzel Parmigiana", "category": "Hauptgerichte", "subcategory": "Aufläufe & Überbackenes", "tags": ["fleisch"], "image": ""},
-  {"id": "73", "title": "Hähnchen-Brokkoli-Kartoffel-Auflauf", "category": "Hauptgerichte", "subcategory": "Aufläufe & Überbackenes", "tags": ["fleisch", "auflauf"], "image": ""},
+  {"id": "73", "title": "Hähnchen-Brokkoli-Kartoffel-Auflauf", "category": "Hauptgerichte", "subcategory": "Aufläufe & Überbackenes", "tags": ["fleisch", "auflauf"], "image": "bilder/73.jpg?v=mvtj9w0x"},
   {"id": "74", "title": "Lasagne Bolognese", "category": "Hauptgerichte", "subcategory": "Aufläufe & Überbackenes", "tags": ["fleisch", "auflauf"], "image": ""},
   {"id": "100", "title": "Auberginen-Parmigiana", "category": "Hauptgerichte", "subcategory": "Aufläufe & Überbackenes", "tags": ["vegetarisch", "auflauf"], "image": "bilder/100.jpg?v=mvtj4fqd"},
   {"id": "109", "title": "Bulgarische Banitsa mit Käse", "category": "Hauptgerichte", "subcategory": "Aufläufe & Überbackenes", "tags": ["vegetarisch"], "image": "bilder/109.jpg?v=mvtj687g"},
