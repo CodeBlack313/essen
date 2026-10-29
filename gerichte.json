@@ -32,7 +32,7 @@
   {"id": "104", "title": "Boeuf Stroganoff mit Champignons", "category": "Hauptgerichte", "subcategory": "Fleischgerichte & Hausmannskost", "tags": ["fleisch"], "image": "bilder/104.jpg?v=mvtjizb3"},
   {"id": "25", "title": "Chicken-Caesar-Schnitzel", "category": "Hauptgerichte", "subcategory": "Schnitzel & Cordon bleu", "tags": ["fleisch"], "image": "bilder/25.jpg?v=mvsk81y0"},
   {"id": "59", "title": "Jägerschnitzel mit Champignonrahmsoße", "category": "Hauptgerichte", "subcategory": "Schnitzel & Cordon bleu", "tags": ["fleisch"], "image": "bilder/59.jpg?v=mvtkfb8h"},
-  {"id": "60", "title": "Paprikaschnitzel (Zigeuner)", "category": "Hauptgerichte", "subcategory": "Schnitzel & Cordon bleu", "tags": ["fleisch"], "image": ""},
+  {"id": "60", "title": "Paprikaschnitzel (Zigeuner)", "category": "Hauptgerichte", "subcategory": "Schnitzel & Cordon bleu", "tags": ["fleisch"], "image": "bilder/60.jpg?v=mvtkisv6"},
   {"id": "61", "title": "Rahmschnitzel", "category": "Hauptgerichte", "subcategory": "Schnitzel & Cordon bleu", "tags": ["fleisch"], "image": ""},
   {"id": "62", "title": "Schnitzel Holsteiner Art", "category": "Hauptgerichte", "subcategory": "Schnitzel & Cordon bleu", "tags": ["fleisch"], "image": ""},
   {"id": "63", "title": "Wiener Schnitzel vom Kalb", "category": "Hauptgerichte", "subcategory": "Schnitzel & Cordon bleu", "tags": ["fleisch"], "image": ""},
