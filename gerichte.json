@@ -74,7 +74,7 @@
   {"id": "6", "title": "High-Protein Reispapier-Burger", "category": "Hauptgerichte", "subcategory": "Burger, Wraps, Tacos & Streetfood", "tags": ["fleisch", "protein"], "image": "bilder/6.jpg?v=mvtlknrs"},
   {"id": "7", "title": "Hatay-Hähnchen-Dürum mit roter Soße", "category": "Hauptgerichte", "subcategory": "Burger, Wraps, Tacos & Streetfood", "tags": ["fleisch"], "image": "bilder/7.jpg?v=mvtmbtee"},
   {"id": "8", "title": "High-Protein Reispapier-Döner", "category": "Hauptgerichte", "subcategory": "Burger, Wraps, Tacos & Streetfood", "tags": ["fleisch", "protein"], "image": "bilder/8.jpg?v=mvtllrr5"},
-  {"id": "9", "title": "Türkische Reispapier-Pide", "category": "Hauptgerichte", "subcategory": "Burger, Wraps, Tacos & Streetfood", "tags": [], "image": ""},
+  {"id": "9", "title": "Türkische Reispapier-Pide", "category": "Hauptgerichte", "subcategory": "Burger, Wraps, Tacos & Streetfood", "tags": ["fleisch", "protein"], "image": "bilder/9.jpg?v=mvtow1n3"},
   {"id": "10", "title": "Reispapier-Tschebureki", "category": "Hauptgerichte", "subcategory": "Burger, Wraps, Tacos & Streetfood", "tags": ["fleisch", "protein"], "image": "bilder/10.jpg?v=mvtmh5sl"},
   {"id": "14", "title": "Knusprige Reispapier-Chicken-Nuggets", "category": "Hauptgerichte", "subcategory": "Burger, Wraps, Tacos & Streetfood", "tags": ["fleisch", "protein"], "image": "bilder/14.jpg?v=mvtmecpw"},
   {"id": "15", "title": "Bang-Bang-Chicken-Tenders", "category": "Hauptgerichte", "subcategory": "Burger, Wraps, Tacos & Streetfood", "tags": ["fleisch", "protein"], "image": "bilder/15.jpg?v=mvtm47go"},
