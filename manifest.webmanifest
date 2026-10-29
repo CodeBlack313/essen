@@ -1,14 +1,19 @@
 {
   "name": "Hangrys",
   "short_name": "Hangrys",
+  "description": "Was essen wir heute? Unsere Lieblingsgerichte mit Suche, Filtern und Zufall.",
+  "id": "./",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#FBF6EF",
+  "orientation": "portrait",
+  "background_color": "#060606",
   "theme_color": "#E0522B",
   "lang": "de",
   "icons": [
-    { "src": "icons/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" },
-    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
   ]
 }

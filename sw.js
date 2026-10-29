@@ -1,6 +1,6 @@
 // Offline-Cache. Bei jedem Deploy mit geänderten Dateien VERSION hochzählen.
 const VERSION = 'essen-v2';
-const KERN = ['./', 'index.html', 'gerichte.json', 'manifest.webmanifest', 'icons/apple-touch-icon.png', 'icons/icon-512.png'];
+const KERN = ['./', 'index.html', 'gerichte.json', 'manifest.webmanifest', 'icons/apple-touch-icon.png', 'icons/icon-192.png', 'icons/icon-512.png'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(VERSION).then(c => c.addAll(KERN)).then(() => self.skipWaiting()));
