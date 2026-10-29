@@ -144,5 +144,6 @@
   {"id": "119", "title": "Kassler mit Sauerkraut und Kartoffelpüree", "category": "Hauptgerichte", "subcategory": "Pasta & Nudelgerichte", "tags": ["fleisch"], "image": "bilder/119.jpg?v=mvtqut4u"},
   {"id": "120", "title": "Schnitzel Bolo", "category": "Hauptgerichte", "subcategory": "Schnitzel & Cordon bleu", "tags": ["fleisch"], "image": "bilder/120.jpg?v=mvtr131b"},
   {"id": "121", "title": "Bockwurst mit Kartoffelsalat", "category": "Hauptgerichte", "subcategory": "Kartoffelgerichte, Gemüse & Pfannengerichte", "tags": ["fleisch"], "image": "bilder/121.jpg?v=mvtr2efq"},
-  {"id": "122", "title": "Chicken Wings Barbecue", "category": "Hauptgerichte", "subcategory": "Fleischgerichte & Hausmannskost", "tags": [], "image": "bilder/122.jpg?v=mvtr3vxf"}
+  {"id": "122", "title": "Chicken Wings Barbecue", "category": "Hauptgerichte", "subcategory": "Fleischgerichte & Hausmannskost", "tags": [], "image": "bilder/122.jpg?v=mvtr3vxf"},
+  {"id": "123", "title": "Currywurst & Pommes", "category": "Hauptgerichte", "subcategory": "Fleischgerichte & Hausmannskost", "tags": ["fleisch"], "image": ""}
 ]
