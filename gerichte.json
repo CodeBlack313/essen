@@ -41,7 +41,7 @@
   {"id": "66", "title": "Cordon bleu mit Schinken und Käse", "category": "Hauptgerichte", "subcategory": "Schnitzel & Cordon bleu", "tags": ["fleisch"], "image": "bilder/66.jpg?v=mvtkd894"},
   {"id": "68", "title": "Zwiebelschnitzel", "category": "Hauptgerichte", "subcategory": "Schnitzel & Cordon bleu", "tags": ["fleisch"], "image": ""},
   {"id": "69", "title": "Pfefferrahmschnitzel", "category": "Hauptgerichte", "subcategory": "Schnitzel & Cordon bleu", "tags": ["fleisch"], "image": ""},
-  {"id": "70", "title": "Gorgonzola-Schnitzel", "category": "Hauptgerichte", "subcategory": "Schnitzel & Cordon bleu", "tags": ["fleisch"], "image": ""},
+  {"id": "70", "title": "Gorgonzola-Schnitzel", "category": "Hauptgerichte", "subcategory": "Schnitzel & Cordon bleu", "tags": ["fleisch"], "image": "bilder/70.jpg?v=mvtke8od"},
   {"id": "71", "title": "Spargelschnitzel mit Hollandaise", "category": "Hauptgerichte", "subcategory": "Schnitzel & Cordon bleu", "tags": ["fleisch"], "image": ""},
   {"id": "72", "title": "Pfifferling-Rahmschnitzel", "category": "Hauptgerichte", "subcategory": "Schnitzel & Cordon bleu", "tags": ["fleisch"], "image": ""},
   {"id": "23", "title": "Lachs-Reis-Muffins (Sushi)", "category": "Hauptgerichte", "subcategory": "Fisch & Meeresfrüchte", "tags": ["fisch"], "image": ""},
