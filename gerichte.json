@@ -76,7 +76,7 @@
   {"id": "8", "title": "High-Protein Reispapier-Döner", "category": "Hauptgerichte", "subcategory": "Burger, Wraps, Tacos & Streetfood", "tags": ["fleisch", "protein"], "image": "bilder/8.jpg?v=mvtllrr5"},
   {"id": "9", "title": "Türkische Reispapier-Pide", "category": "Hauptgerichte", "subcategory": "Burger, Wraps, Tacos & Streetfood", "tags": [], "image": ""},
   {"id": "10", "title": "Reispapier-Tschebureki", "category": "Hauptgerichte", "subcategory": "Burger, Wraps, Tacos & Streetfood", "tags": [], "image": ""},
-  {"id": "14", "title": "Knusprige Reispapier-Chicken-Nuggets", "category": "Hauptgerichte", "subcategory": "Burger, Wraps, Tacos & Streetfood", "tags": ["fleisch"], "image": ""},
+  {"id": "14", "title": "Knusprige Reispapier-Chicken-Nuggets", "category": "Hauptgerichte", "subcategory": "Burger, Wraps, Tacos & Streetfood", "tags": ["fleisch", "protein"], "image": "bilder/14.jpg?v=mvtmecpw"},
   {"id": "15", "title": "Bang-Bang-Chicken-Tenders", "category": "Hauptgerichte", "subcategory": "Burger, Wraps, Tacos & Streetfood", "tags": ["fleisch", "protein"], "image": "bilder/15.jpg?v=mvtm47go"},
   {"id": "24", "title": "High-Protein Big-Mac-Rolle", "category": "Hauptgerichte", "subcategory": "Burger, Wraps, Tacos & Streetfood", "tags": ["fleisch", "protein"], "image": "bilder/24.jpg?v=mvtlj5kl"},
   {"id": "27", "title": "Grilled-Cheese-Frühstücksburritos", "category": "Hauptgerichte", "subcategory": "Burger, Wraps, Tacos & Streetfood", "tags": [], "image": "bilder/27.jpg?v=mvtm9b0m"},
