@@ -46,7 +46,7 @@
   {"id": "72", "title": "Pfifferling-Rahmschnitzel", "category": "Hauptgerichte", "subcategory": "Schnitzel & Cordon bleu", "tags": ["fleisch"], "image": "bilder/72.jpg?v=mvtkkkpr"},
   {"id": "23", "title": "Lachs-Reis-Muffins (Sushi)", "category": "Hauptgerichte", "subcategory": "Fisch & Meeresfrüchte", "tags": ["fisch"], "image": ""},
   {"id": "29", "title": "Lachs mit Brokkoli und Süßkartoffeln", "category": "Hauptgerichte", "subcategory": "Fisch & Meeresfrüchte", "tags": ["fisch"], "image": ""},
-  {"id": "43", "title": "Kabeljau mit Salzkartoffeln und Gurkensalat", "category": "Hauptgerichte", "subcategory": "Fisch & Meeresfrüchte", "tags": ["fisch"], "image": ""},
+  {"id": "43", "title": "Kabeljau mit Salzkartoffeln und Gurkensalat", "category": "Hauptgerichte", "subcategory": "Fisch & Meeresfrüchte", "tags": ["fisch"], "image": "bilder/43.jpg?v=mvtky5n0"},
   {"id": "44", "title": "Honig-Senf-Lachs mit Bohnen", "category": "Hauptgerichte", "subcategory": "Fisch & Meeresfrüchte", "tags": ["fisch", "protein"], "image": "bilder/44.jpg?v=mvtkwpkg"},
   {"id": "45", "title": "Knuspriger Ofen-Seelachs mit Kartoffelspalten", "category": "Hauptgerichte", "subcategory": "Fisch & Meeresfrüchte", "tags": ["fisch"], "image": ""},
   {"id": "46", "title": "Mediterraner Kabeljau mit Tomaten und Mozzarella", "category": "Hauptgerichte", "subcategory": "Fisch & Meeresfrüchte", "tags": ["fisch"], "image": ""},
