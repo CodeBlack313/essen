@@ -90,7 +90,7 @@
   {"id": "18", "title": "Kinder-Pingui-Protein-Bowl", "category": "Nachspeisen & süßes Frühstück", "subcategory": "", "tags": ["vegetarisch", "protein"], "image": "bilder/18.jpg?v=mvtpyu0t"},
   {"id": "19", "title": "Protein-Pancake-Bowl", "category": "Nachspeisen & süßes Frühstück", "subcategory": "", "tags": ["vegetarisch", "protein"], "image": "bilder/19.jpg?v=mvtpzh97"},
   {"id": "20", "title": "Tiramisu Overnight Oats", "category": "Nachspeisen & süßes Frühstück", "subcategory": "", "tags": ["vegetarisch"], "image": ""},
-  {"id": "21", "title": "Schokoladenpudding aus gekochten Eiern", "category": "Nachspeisen & süßes Frühstück", "subcategory": "", "tags": ["vegetarisch"], "image": ""},
+  {"id": "21", "title": "Schokoladenpudding aus gekochten Eiern", "category": "Nachspeisen & süßes Frühstück", "subcategory": "", "tags": ["vegetarisch", "protein"], "image": "bilder/21.jpg?v=mvtq03oz"},
   {"id": "30", "title": "Chia-Blaubeer-Bananen-Dessert", "category": "Nachspeisen & süßes Frühstück", "subcategory": "", "tags": ["vegetarisch"], "image": "bilder/30.jpg?v=mvtpxbcl"},
   {"id": "87", "title": "Kaiserschmarrn mit Apfelmus", "category": "Nachspeisen & süßes Frühstück", "subcategory": "", "tags": ["vegetarisch"], "image": "bilder/87.jpg?v=mvtpy3sj"},
   {"id": "12", "title": "Knuspriger Shawarma-Hähnchen-Reissalat", "category": "Salate", "subcategory": "", "tags": ["fleisch"], "image": "bilder/12.jpg?v=mvtpfrhx"},
