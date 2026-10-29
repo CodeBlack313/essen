@@ -22,7 +22,7 @@
   {"id": "109", "title": "Bulgarische Banitsa mit Käse", "category": "Hauptgerichte", "subcategory": "Aufläufe & Überbackenes", "tags": ["vegetarisch"], "image": "bilder/109.jpg?v=mvtj687g"},
   {"id": "B14", "title": "Kartoffelgratin mit Käse und Knoblauch", "category": "Hauptgerichte", "subcategory": "Aufläufe & Überbackenes", "tags": ["vegetarisch", "auflauf"], "image": "bilder/B14.jpg?v=mvtjbinj"},
   {"id": "28", "title": "Steak mit Spiegeleiern und Avocado", "category": "Hauptgerichte", "subcategory": "Fleischgerichte & Hausmannskost", "tags": ["fleisch", "protein"], "image": "bilder/28.jpg?v=mvtkbvz4"},
-  {"id": "75", "title": "Rinderrouladen mit Rotkohl und Klößen", "category": "Hauptgerichte", "subcategory": "Fleischgerichte & Hausmannskost", "tags": ["fleisch"], "image": "bilder/75.jpg?v=mvtk8usc"},
+  {"id": "75", "title": "Rinderrouladen mit Rotkohl und Klößen alla Papa", "category": "Hauptgerichte", "subcategory": "Fleischgerichte & Hausmannskost", "tags": ["fleisch"], "image": "bilder/75.jpg?v=mvtk8usc"},
   {"id": "76", "title": "Rindergulasch mit Spätzle", "category": "Hauptgerichte", "subcategory": "Fleischgerichte & Hausmannskost", "tags": ["fleisch"], "image": "bilder/76.jpg?v=mvtk6lcl"},
   {"id": "77", "title": "Frikadellen mit Kartoffelpüree und Soße", "category": "Hauptgerichte", "subcategory": "Fleischgerichte & Hausmannskost", "tags": ["fleisch"], "image": "bilder/77.jpg?v=mvtjl6h2"},
   {"id": "79", "title": "Chili con Carne", "category": "Hauptgerichte", "subcategory": "Fleischgerichte & Hausmannskost", "tags": ["fleisch", "protein"], "image": "bilder/79.jpg?v=mvtjjyaw"},
@@ -154,5 +154,10 @@
   {"id": "129", "title": "Hühnerragout alla Mama", "category": "Hauptgerichte", "subcategory": "Fleischgerichte & Hausmannskost", "tags": ["fleisch"], "image": "bilder/129.jpg?v=mvtrllxo"},
   {"id": "130", "title": "Königsberger Klopse", "category": "Hauptgerichte", "subcategory": "Pasta & Nudelgerichte", "tags": [], "image": "bilder/130.jpg?v=mvtrmxo4"},
   {"id": "131", "title": "Barbecue Bacon Burger (BBB) alla Toby", "category": "Hauptgerichte", "subcategory": "Fleischgerichte & Hausmannskost", "tags": ["fleisch"], "image": "bilder/131.jpg?v=mvtrrmzu"},
-  {"id": "132", "title": "Chilli Cheese Fries", "category": "Hauptgerichte", "subcategory": "Fleischgerichte & Hausmannskost", "tags": ["fleisch"], "image": "bilder/132.jpg?v=mvtrxj25"}
+  {"id": "132", "title": "Chilli Cheese Fries", "category": "Hauptgerichte", "subcategory": "Fleischgerichte & Hausmannskost", "tags": ["fleisch"], "image": "bilder/132.jpg?v=mvtrxj25"},
+  {"id": "133", "title": "Schweineschnitzel „Großmutterschön“ alla Antonio", "category": "Hauptgerichte", "subcategory": "Fleischgerichte & Hausmannskost", "tags": ["fleisch"], "image": "bilder/133.jpg?v=mvtsn3k6"},
+  {"id": "134", "title": "Rigatoni al forno", "category": "Hauptgerichte", "subcategory": "Pasta & Nudelgerichte", "tags": ["fleisch", "auflauf"], "image": "bilder/134.jpg?v=mvtsn5al"},
+  {"id": "135", "title": "Knoblauch Schnitzel alla Brotpann", "category": "Hauptgerichte", "subcategory": "Fleischgerichte & Hausmannskost", "tags": ["fleisch"], "image": "bilder/135.jpg?v=mvtsn742"},
+  {"id": "136", "title": "Hollandaise Schnitzel mit Käse überbacken (Amsterdam Art)", "category": "Hauptgerichte", "subcategory": "Fleischgerichte & Hausmannskost", "tags": ["fleisch"], "image": "bilder/136.jpg?v=mvtsn8m7"},
+  {"id": "137", "title": "Udon Nudelsuppe", "category": "Hauptgerichte", "subcategory": "Pasta & Nudelgerichte", "tags": ["fleisch", "vegetarisch"], "image": "bilder/137.jpg?v=mvtsna08"}
 ]
