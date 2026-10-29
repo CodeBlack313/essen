@@ -159,5 +159,6 @@
   {"id": "134", "title": "Rigatoni al forno", "category": "Hauptgerichte", "subcategory": "Pasta & Nudelgerichte", "tags": ["fleisch", "auflauf"], "image": "bilder/134.jpg?v=mvtsn5al"},
   {"id": "135", "title": "Knoblauch Schnitzel alla Brotpann", "category": "Hauptgerichte", "subcategory": "Fleischgerichte & Hausmannskost", "tags": ["fleisch"], "image": "bilder/135.jpg?v=mvtsn742"},
   {"id": "136", "title": "Hollandaise Schnitzel mit Käse überbacken (Amsterdam Art)", "category": "Hauptgerichte", "subcategory": "Fleischgerichte & Hausmannskost", "tags": ["fleisch"], "image": "bilder/136.jpg?v=mvtsn8m7"},
-  {"id": "137", "title": "Udon Nudelsuppe", "category": "Hauptgerichte", "subcategory": "Pasta & Nudelgerichte", "tags": ["fleisch", "vegetarisch"], "image": "bilder/137.jpg?v=mvtsna08"}
+  {"id": "137", "title": "Udon Nudelsuppe", "category": "Hauptgerichte", "subcategory": "Pasta & Nudelgerichte", "tags": ["fleisch", "vegetarisch"], "image": "bilder/137.jpg?v=mvtsna08"},
+  {"id": "138", "title": "Spaghetti mit Hackfleischbratensoße alla Papa", "category": "Hauptgerichte", "subcategory": "Pasta & Nudelgerichte", "tags": [], "image": ""}
 ]
