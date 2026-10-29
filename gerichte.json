@@ -21,7 +21,7 @@
   {"id": "100", "title": "Auberginen-Parmigiana", "category": "Hauptgerichte", "subcategory": "Aufläufe & Überbackenes", "tags": ["vegetarisch", "auflauf"], "image": "bilder/100.jpg?v=mvtj4fqd"},
   {"id": "109", "title": "Bulgarische Banitsa mit Käse", "category": "Hauptgerichte", "subcategory": "Aufläufe & Überbackenes", "tags": ["vegetarisch"], "image": "bilder/109.jpg?v=mvtj687g"},
   {"id": "B14", "title": "Kartoffelgratin mit Käse und Knoblauch", "category": "Hauptgerichte", "subcategory": "Aufläufe & Überbackenes", "tags": ["vegetarisch", "auflauf"], "image": "bilder/B14.jpg?v=mvtjbinj"},
-  {"id": "28", "title": "Steak mit Spiegeleiern und Avocado", "category": "Hauptgerichte", "subcategory": "Fleischgerichte & Hausmannskost", "tags": ["fleisch"], "image": ""},
+  {"id": "28", "title": "Steak mit Spiegeleiern und Avocado", "category": "Hauptgerichte", "subcategory": "Fleischgerichte & Hausmannskost", "tags": ["fleisch"], "image": "bilder/28.jpg?v=mvtkbvz4"},
   {"id": "75", "title": "Rinderrouladen mit Rotkohl und Klößen", "category": "Hauptgerichte", "subcategory": "Fleischgerichte & Hausmannskost", "tags": ["fleisch"], "image": "bilder/75.jpg?v=mvtk8usc"},
   {"id": "76", "title": "Rindergulasch mit Spätzle", "category": "Hauptgerichte", "subcategory": "Fleischgerichte & Hausmannskost", "tags": ["fleisch"], "image": "bilder/76.jpg?v=mvtk6lcl"},
   {"id": "77", "title": "Frikadellen mit Kartoffelpüree und Soße", "category": "Hauptgerichte", "subcategory": "Fleischgerichte & Hausmannskost", "tags": ["fleisch"], "image": "bilder/77.jpg?v=mvtjl6h2"},
