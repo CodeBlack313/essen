@@ -149,5 +149,6 @@
   {"id": "124", "title": "Grillhähnchen mit Rotkohl, Kartoffeln alla Hähnchensoße alla Mama & Papa", "category": "Hauptgerichte", "subcategory": "Pasta & Nudelgerichte", "tags": [], "image": "bilder/124.jpg?v=mvtrc3tk"},
   {"id": "125", "title": "Tunfischnudeln alla Mama", "category": "Hauptgerichte", "subcategory": "Pasta & Nudelgerichte", "tags": ["fisch"], "image": "bilder/125.jpg?v=mvtrdipe"},
   {"id": "126", "title": "Kartoffelpüree mit Hackfleischsoße alla Papa", "category": "Hauptgerichte", "subcategory": "Pasta & Nudelgerichte", "tags": ["fleisch"], "image": "bilder/126.jpg?v=mvtrf9zm"},
-  {"id": "127", "title": "Herrencreme", "category": "Nachspeisen & süßes Frühstück", "subcategory": "", "tags": [], "image": "bilder/127.jpg?v=mvtrgrmz"}
+  {"id": "127", "title": "Herrencreme", "category": "Nachspeisen & süßes Frühstück", "subcategory": "", "tags": [], "image": "bilder/127.jpg?v=mvtrgrmz"},
+  {"id": "128", "title": "Kartoffelauflauf mit Pute Sauce Hollandaise und Käse überbacken alla Tanti", "category": "Hauptgerichte", "subcategory": "Aufläufe & Überbackenes", "tags": ["fleisch"], "image": "bilder/128.jpg?v=mvtrioxj"}
 ]
