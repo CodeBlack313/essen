@@ -84,7 +84,7 @@
   {"id": "80", "title": "Bratkartoffeln mit Spiegeleiern und Speck", "category": "Hauptgerichte", "subcategory": "Kartoffelgerichte, Gemüse & Pfannengerichte", "tags": ["vegetarisch"], "image": "bilder/80.jpg?v=mvtoxe8f"},
   {"id": "81", "title": "Ofenkartoffel mit Kräuterquark und Räucherlachs", "category": "Hauptgerichte", "subcategory": "Kartoffelgerichte, Gemüse & Pfannengerichte", "tags": ["fisch"], "image": ""},
   {"id": "89", "title": "Kartoffelrösti mit Räucherlachs und Crème fraîche", "category": "Hauptgerichte", "subcategory": "Kartoffelgerichte, Gemüse & Pfannengerichte", "tags": ["fisch"], "image": ""},
-  {"id": "106", "title": "Bulgarisches Mish-Mash mit Paprika, Tomaten, Eiern", "category": "Hauptgerichte", "subcategory": "Kartoffelgerichte, Gemüse & Pfannengerichte", "tags": ["vegetarisch"], "image": ""},
+  {"id": "106", "title": "Bulgarisches Mish-Mash mit Paprika, Tomaten, Eiern", "category": "Hauptgerichte", "subcategory": "Kartoffelgerichte, Gemüse & Pfannengerichte", "tags": ["vegetarisch"], "image": "bilder/106.jpg?v=mvtoyl7w"},
   {"id": "17", "title": "Koreanische Mayak-Eier", "category": "Hauptgerichte", "subcategory": "Herzhafte Eierspeisen", "tags": ["vegetarisch"], "image": ""},
   {"id": "110", "title": "Bulgarische Eier nach Panagyurski-Art", "category": "Hauptgerichte", "subcategory": "Herzhafte Eierspeisen", "tags": ["vegetarisch", "protein"], "image": "bilder/110.jpg?v=mvtlor13"},
   {"id": "18", "title": "Kinder-Pingui-Protein-Bowl", "category": "Nachspeisen & süßes Frühstück", "subcategory": "", "tags": ["vegetarisch", "protein"], "image": ""},
