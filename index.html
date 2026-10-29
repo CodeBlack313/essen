@@ -262,6 +262,7 @@
   /* Zufall */
   .zufall { padding: 44px calc(20px + var(--rechts)) 4px calc(20px + var(--links)); text-align: center; }
   .zufall h2 { font-size: 22px; }
+  .zufall-wahl { display: flex; justify-content: center; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
   .wuerfel { font-size: 40px; display: inline-block; margin-bottom: 6px; }
   .wuerfel.rollt { animation: rollen .45s linear infinite; }
   @keyframes rollen { to { transform: rotate(360deg); } }
@@ -382,6 +383,8 @@ const STANDARD_INFO = { emoji: '🍽️', farben: ['#EAD9C6', '#B08D6E'] };
 const MIT_UNTERKATEGORIE = 'Hauptgerichte';
 // Diese Kategorien zieht der Zufall nicht (außer man hat sie gerade selbst gewählt). Neue Gerichte darin bekommen B-IDs.
 const BEILAGEN = new Set(['Dips, Soßen & Dressings', 'Extras', 'Hausmittel']);
+const SUESSES = 'Nachspeisen & süßes Frühstück';
+const SUESS_WAHL = [['ohne', 'Ohne Süßes'], ['alle', 'Alles'], ['nur', '🍮 Nur Süßes']];
 
 const TAGS = [
   { id: 'fleisch',     label: 'Fleisch',         emoji: '🥩' },
@@ -457,6 +460,7 @@ function leererSpeicher() {
     favoriten: [], geaendert: {}, geloescht: [], hoechsteId: { zahl: 115, b: 27 },
     veroeffentlicht: {}, // id → Zeitpunkt, an dem die Änderung an GitHub ging (bis gerichte.json sie enthält)
     vorschau: {},        // Bildpfad → data-URL, solange das hochgeladene Foto noch nicht auf der Seite ist
+    suesses: 'ohne',     // Zufall: 'ohne' | 'alle' | 'nur' Nachspeisen
   };
 }
 function ladeLokal() {
@@ -840,7 +844,18 @@ let zufallLaeuft = false, letzterZufall = null;
 
 function zufallsPool() {
   const liste = gefiltert().map(x => x.g);
-  return BEILAGEN.has(zustand.kategorie) ? liste : liste.filter(g => !BEILAGEN.has(g.category));
+  if (zustand.kategorie) return liste; // eine Kategorie ist gewählt: die gilt
+  const ohneBeilagen = liste.filter(g => !BEILAGEN.has(g.category));
+  if (lokal.suesses === 'nur') return ohneBeilagen.filter(g => g.category === SUESSES);
+  if (lokal.suesses === 'ohne') return ohneBeilagen.filter(g => g.category !== SUESSES);
+  return ohneBeilagen;
+}
+
+// Nur ohne gewählte Kategorie sinnvoll, sonst bestimmt die Kategorie, was gezogen wird.
+function suessWahlHtml() {
+  if (zustand.kategorie) return '';
+  return `<div class="zufall-wahl">${SUESS_WAHL.map(([wert, text]) =>
+    `<button class="chip" data-aktion="suesses" data-wert="${wert}" aria-pressed="${lokal.suesses === wert}">${text}</button>`).join('')}</div>`;
 }
 
 function zufallKarte(g) {
@@ -849,16 +864,18 @@ function zufallKarte(g) {
 
 function zeigeZufall() {
   const pool = zufallsPool();
-  const ausgeschlossen = BEILAGEN.has(zustand.kategorie) ? '' : ' · ohne Dips, Extras & Hausmittel';
+  const ausgeschlossen = zustand.kategorie || lokal.suesses === 'nur' ? ''
+    : lokal.suesses === 'ohne' ? ' · ohne Süßes, Dips, Extras & Hausmittel' : ' · ohne Dips, Extras & Hausmittel';
   if (!pool.length) {
-    zeigeSheet(`<div class="zufall"><div class="wuerfel">🎲</div><h2>Was essen wir heute?</h2>
-      <p class="meta">Mit den aktuellen Filtern gibt es nichts zum Auslosen.</p>
+    zeigeSheet(`<div class="zufall"><div class="wuerfel">🎲</div><h2>Was essen wir heute?</h2>${suessWahlHtml()}
+      <p class="meta" style="margin-top:16px">Mit den aktuellen Filtern gibt es nichts zum Auslosen.</p>
       <button class="knopf primaer voll" data-aktion="filter-weg">Filter zurücksetzen</button></div>`, { typ: 'zufall' });
     return;
   }
   zeigeSheet(`<div class="zufall">
       <div class="wuerfel" id="wuerfel">🎲</div>
       <h2>Was essen wir heute?</h2>
+      ${suessWahlHtml()}
       <div class="zufall-karte" id="zufall-karte"></div>
       <p class="hinweis">aus ${pool.length} ${pool.length === 1 ? 'Gericht' : 'Gerichten'}${filterAktiv() ? ' (gefiltert)' : ''}${ausgeschlossen}</p>
       <div class="aktionen">
@@ -1301,6 +1318,7 @@ $('#sheet').addEventListener('click', e => {
     case 'bearbeiten': zeigeFormular(id); break;
     case 'loeschen': loeschen(id); break;
     case 'nochmal': if (!zufallLaeuft) wuerfeln(); break;
+    case 'suesses': lokal.suesses = el.dataset.wert; speichern(); zeigeZufall(); break;
     case 'ansehen': { const k = $('#zufall-karte'); if (!zufallLaeuft && k && k.dataset.id) zeigeDetail(k.dataset.id); break; }
     case 'filter-weg': filterZuruecksetzen(); zeigeZufall(); break;
     case 'foto-weg': fotoNeu = ''; formularVorschau(); break;
