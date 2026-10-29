@@ -81,7 +81,7 @@
   {"id": "24", "title": "High-Protein Big-Mac-Rolle", "category": "Hauptgerichte", "subcategory": "Burger, Wraps, Tacos & Streetfood", "tags": ["fleisch", "protein"], "image": "bilder/24.jpg?v=mvtlj5kl"},
   {"id": "27", "title": "Grilled-Cheese-Frühstücksburritos", "category": "Hauptgerichte", "subcategory": "Burger, Wraps, Tacos & Streetfood", "tags": [], "image": "bilder/27.jpg?v=mvtm9b0m"},
   {"id": "22", "title": "Knusprige Parmesan-Blumenkohl-Steaks mit Avocadodip", "category": "Hauptgerichte", "subcategory": "Kartoffelgerichte, Gemüse & Pfannengerichte", "tags": ["vegetarisch"], "image": ""},
-  {"id": "80", "title": "Bratkartoffeln mit Spiegeleiern und Speck", "category": "Hauptgerichte", "subcategory": "Kartoffelgerichte, Gemüse & Pfannengerichte", "tags": ["fleisch"], "image": ""},
+  {"id": "80", "title": "Bratkartoffeln mit Spiegeleiern und Speck", "category": "Hauptgerichte", "subcategory": "Kartoffelgerichte, Gemüse & Pfannengerichte", "tags": ["fleisch"], "image": "bilder/80.jpg?v=mvtoxa7e"},
   {"id": "81", "title": "Ofenkartoffel mit Kräuterquark und Räucherlachs", "category": "Hauptgerichte", "subcategory": "Kartoffelgerichte, Gemüse & Pfannengerichte", "tags": ["fisch"], "image": ""},
   {"id": "89", "title": "Kartoffelrösti mit Räucherlachs und Crème fraîche", "category": "Hauptgerichte", "subcategory": "Kartoffelgerichte, Gemüse & Pfannengerichte", "tags": ["fisch"], "image": ""},
   {"id": "106", "title": "Bulgarisches Mish-Mash mit Paprika, Tomaten, Eiern", "category": "Hauptgerichte", "subcategory": "Kartoffelgerichte, Gemüse & Pfannengerichte", "tags": ["vegetarisch"], "image": ""},
