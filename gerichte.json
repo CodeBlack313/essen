@@ -64,7 +64,7 @@
   {"id": "94", "title": "Mildes Chicken Korma mit Basmatireis", "category": "Hauptgerichte", "subcategory": "Reisgerichte, Risotto & Currys", "tags": ["fleisch"], "image": "bilder/94.jpg?v=mvtly11h"},
   {"id": "95", "title": "Cremiges Pilzrisotto mit Parmesan", "category": "Hauptgerichte", "subcategory": "Reisgerichte, Risotto & Currys", "tags": ["vegetarisch"], "image": "bilder/95.jpg?v=mvtlshp5"},
   {"id": "97", "title": "Zitronenrisotto mit Garnelen", "category": "Hauptgerichte", "subcategory": "Reisgerichte, Risotto & Currys", "tags": ["fisch"], "image": ""},
-  {"id": "98", "title": "Tomaten-Mozzarella-Risotto", "category": "Hauptgerichte", "subcategory": "Reisgerichte, Risotto & Currys", "tags": ["vegetarisch"], "image": ""},
+  {"id": "98", "title": "Tomaten-Mozzarella-Risotto", "category": "Hauptgerichte", "subcategory": "Reisgerichte, Risotto & Currys", "tags": ["vegetarisch"], "image": "bilder/98.jpg?v=mvtm215r"},
   {"id": "99", "title": "Kürbisrisotto mit Parmesan und Salbei", "category": "Hauptgerichte", "subcategory": "Reisgerichte, Risotto & Currys", "tags": ["vegetarisch"], "image": "bilder/99.jpg?v=mvtlvyjg"},
   {"id": "1", "title": "Cheeseburger-Wrap", "category": "Hauptgerichte", "subcategory": "Burger, Wraps, Tacos & Streetfood", "tags": ["fleisch"], "image": ""},
   {"id": "2", "title": "High-Protein Smash-Burger-Taco", "category": "Hauptgerichte", "subcategory": "Burger, Wraps, Tacos & Streetfood", "tags": ["fleisch", "protein"], "image": "bilder/2.jpg?v=mvtln57s"},
