@@ -463,14 +463,26 @@ function ladeLokal() {
   } catch (e) { /* privat-Modus o. ä. */ }
   return leererSpeicher();
 }
+const istVoll = e => e && (e.name === 'QuotaExceededError' || e.code === 22);
 function speichern() {
   try {
-    localStorage.setItem(SPEICHER_KEY, JSON.stringify(lokal));
+    try {
+      localStorage.setItem(SPEICHER_KEY, JSON.stringify(lokal));
+    } catch (e) {
+      if (!istVoll(e)) throw e;
+      // Vorschaubilder überbrücken nur die 1–2 Min. bis GitHub Pages das Foto ausliefert.
+      // iOS erlaubt ~5 MB, nach vielen Fotos ist das voll: dann bleiben sie nur im Arbeitsspeicher.
+      localStorage.setItem(SPEICHER_KEY, JSON.stringify({ ...lokal, vorschau: {} }));
+    }
     return true;
   } catch (e) {
+    const vorschau = lokal.vorschau;
     lokal = ladeLokal(); // Änderung verwerfen, Stand von vorher
+    lokal.vorschau = vorschau;
     zusammenfuehren();
-    toast(e && e.name === 'QuotaExceededError' ? 'Speicher voll – Foto zu groß?' : 'Konnte nicht speichern');
+    toast(istVoll(e)
+      ? (github ? 'Speicher voll – bitte App neu öffnen' : 'Speicher voll – Fotos erst „für alle speichern“')
+      : 'Konnte nicht speichern');
     return false;
   }
 }
