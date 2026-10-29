@@ -70,7 +70,7 @@
   {"id": "2", "title": "High-Protein Smash-Burger-Taco", "category": "Hauptgerichte", "subcategory": "Burger, Wraps, Tacos & Streetfood", "tags": ["fleisch", "protein"], "image": "bilder/2.jpg?v=mvtln57s"},
   {"id": "3", "title": "Knusprige Chicken-Cheese-Tacos", "category": "Hauptgerichte", "subcategory": "Burger, Wraps, Tacos & Streetfood", "tags": ["fleisch"], "image": ""},
   {"id": "4", "title": "Cheeseburger im Reispapier", "category": "Hauptgerichte", "subcategory": "Burger, Wraps, Tacos & Streetfood", "tags": ["fleisch", "protein"], "image": "bilder/4.jpg?v=mvtm60t1"},
-  {"id": "5", "title": "Flying Dutchman Burger", "category": "Hauptgerichte", "subcategory": "Burger, Wraps, Tacos & Streetfood", "tags": ["fleisch"], "image": ""},
+  {"id": "5", "title": "Flying Dutchman Burger", "category": "Hauptgerichte", "subcategory": "Burger, Wraps, Tacos & Streetfood", "tags": ["fleisch", "protein"], "image": "bilder/5.jpg?v=mvtm85iy"},
   {"id": "6", "title": "High-Protein Reispapier-Burger", "category": "Hauptgerichte", "subcategory": "Burger, Wraps, Tacos & Streetfood", "tags": ["fleisch", "protein"], "image": "bilder/6.jpg?v=mvtlknrs"},
   {"id": "7", "title": "Hatay-Hähnchen-Döner mit roter Soße", "category": "Hauptgerichte", "subcategory": "Burger, Wraps, Tacos & Streetfood", "tags": ["fleisch"], "image": ""},
   {"id": "8", "title": "High-Protein Reispapier-Döner", "category": "Hauptgerichte", "subcategory": "Burger, Wraps, Tacos & Streetfood", "tags": ["fleisch", "protein"], "image": "bilder/8.jpg?v=mvtllrr5"},
