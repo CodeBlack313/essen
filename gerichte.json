@@ -12,7 +12,7 @@
   {"id": "112", "title": "Pasta mit rotem Pesto Rosso", "category": "Hauptgerichte", "subcategory": "Pasta & Nudelgerichte", "tags": ["vegetarisch"], "image": "bilder/112.jpg?v=mvtfulnk"},
   {"id": "113", "title": "Spaghetti Carbonara", "category": "Hauptgerichte", "subcategory": "Pasta & Nudelgerichte", "tags": ["fleisch"], "image": "bilder/113.jpg?v=mvtfunjt"},
   {"id": "115", "title": "Tortellini mit Tomatensahnesoße, Brokkoli und Lachs", "category": "Hauptgerichte", "subcategory": "Pasta & Nudelgerichte", "tags": ["fisch"], "image": "bilder/115.jpg?v=mvtizjjd"},
-  {"id": "13", "title": "Piadina-Käsepizza", "category": "Hauptgerichte", "subcategory": "Aufläufe & Überbackenes", "tags": ["vegetarisch"], "image": ""},
+  {"id": "13", "title": "Piadina-Käsepizza", "category": "Hauptgerichte", "subcategory": "Aufläufe & Überbackenes", "tags": ["vegetarisch"], "image": "bilder/13.jpg?v=mvtjf938"},
   {"id": "36", "title": "Bulgarische Moussaka mit Kartoffeln und Hackfleisch", "category": "Hauptgerichte", "subcategory": "Aufläufe & Überbackenes", "tags": ["fleisch", "auflauf"], "image": "bilder/36.jpg?v=mvtj7qes"},
   {"id": "37", "title": "Überbackene Hähnchenbrust mit Tomaten und Mozzarella", "category": "Hauptgerichte", "subcategory": "Aufläufe & Überbackenes", "tags": ["fleisch", "auflauf"], "image": ""},
   {"id": "67", "title": "Schnitzel Parmigiana", "category": "Hauptgerichte", "subcategory": "Aufläufe & Überbackenes", "tags": ["fleisch"], "image": ""},
