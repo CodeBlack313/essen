@@ -14,6 +14,13 @@
 <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
 <link rel="manifest" href="manifest.webmanifest">
 <title>Hangrys</title>
+<!-- Link-Vorschau in WhatsApp; die Bild-Adresse muss absolut sein -->
+<meta property="og:title" content="Hangrys">
+<meta property="og:description" content="Was essen wir heute?">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://codeblack313.github.io/essen/icons/teilen.jpg">
+<meta property="og:image:width" content="600">
+<meta property="og:image:height" content="600">
 <style>
   :root {
     --bg: #FBF6EF;
@@ -686,6 +693,30 @@ function schliesseSheet() {
 
 /* ---------- Detailansicht ---------- */
 
+const TEILEN = '<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12M7 8l5-5 5 5"/><path d="M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/></svg>';
+
+// Link auf das Gericht (…/essen/#g=33) – öffnet beim Empfänger direkt die Detailansicht.
+async function teilen(id) {
+  const g = finde(id);
+  if (!g) return;
+  const link = `${location.origin}${location.pathname}#g=${encodeURIComponent(id)}`;
+  const text = `Ich hab Bock auf: ${g.title} ${info(g).emoji}\n${link}`;
+  if (navigator.share) {
+    // Link im Text statt als url-Feld: sonst lassen manche Apps (z. B. WhatsApp) den Text weg.
+    try { await navigator.share({ text }); } catch (e) { /* abgebrochen */ }
+    return;
+  }
+  location.href = `https://wa.me/?text=${encodeURIComponent(text)}`;
+}
+
+function oeffneAusLink() {
+  const m = location.hash.match(/^#g=(.+)$/);
+  if (!m) return;
+  history.replaceState(null, '', location.pathname + location.search);
+  if (finde(decodeURIComponent(m[1]))) zeigeDetail(decodeURIComponent(m[1]));
+  else toast('Dieses Gericht gibt es nicht mehr');
+}
+
 function zeigeDetail(id) {
   const g = finde(id);
   if (!g) return schliesseSheet();
@@ -699,7 +730,8 @@ function zeigeDetail(id) {
         ${TAGS.map(t => `<label class="tagwahl"><input type="checkbox" data-aktion="tag" value="${t.id}" ${g.tags.includes(t.id) ? 'checked' : ''}><span>${t.emoji} ${esc(t.label)}</span></label>`).join('')}
       </div>
       <p class="hinweis">Tippen zum An-/Abwählen.</p>
-      <div class="aktionen">
+      <button class="knopf primaer voll" style="margin-top:22px" data-aktion="teilen">${TEILEN} Teilen</button>
+      <div class="aktionen" style="margin-top:10px">
         <button class="knopf" data-aktion="fav" aria-pressed="${fav}">${fav ? HERZ : HERZ_LEER} Favorit</button>
         <button class="knopf" data-aktion="bearbeiten">Bearbeiten</button>
         <button class="knopf gefahr" data-aktion="loeschen">Löschen</button>
@@ -880,6 +912,7 @@ function zeigeZufall() {
       <p class="hinweis">aus ${pool.length} ${pool.length === 1 ? 'Gericht' : 'Gerichten'}${filterAktiv() ? ' (gefiltert)' : ''}${ausgeschlossen}</p>
       <div class="aktionen">
         <button class="knopf" data-aktion="nochmal">🎲 Nochmal</button>
+        <button class="knopf" style="flex:0 0 54px;padding:0" data-aktion="zufall-teilen" aria-label="Teilen">${TEILEN}</button>
         <button class="knopf primaer" data-aktion="ansehen">Ansehen</button>
       </div></div>`, { typ: 'zufall' });
   wuerfeln(pool);
@@ -1318,6 +1351,8 @@ $('#sheet').addEventListener('click', e => {
     case 'bearbeiten': zeigeFormular(id); break;
     case 'loeschen': loeschen(id); break;
     case 'nochmal': if (!zufallLaeuft) wuerfeln(); break;
+    case 'teilen': teilen(id); break;
+    case 'zufall-teilen': { const k = $('#zufall-karte'); if (!zufallLaeuft && k && k.dataset.id) teilen(k.dataset.id); break; }
     case 'suesses': lokal.suesses = el.dataset.wert; speichern(); zeigeZufall(); break;
     case 'ansehen': { const k = $('#zufall-karte'); if (!zufallLaeuft && k && k.dataset.id) zeigeDetail(k.dataset.id); break; }
     case 'filter-weg': filterZuruecksetzen(); zeigeZufall(); break;
@@ -1387,6 +1422,8 @@ async function start() {
   aufraeumen();
   zusammenfuehren();
   render();
+  oeffneAusLink();
+  addEventListener('hashchange', oeffneAusLink);
 }
 start();
 
